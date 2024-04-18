@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styl3.css" />
+
+    <title>Stacja paliw</title>
+  </head>
+  <body>
+    <header class="left-header">
+      <h1 class="main-title">Stacja paliw</h1>
+    </header>
+    <header class="right-header">
+      <a href="./stacja.html" class="header-link"
+        ><img
+          src="./src/home.png"
+          alt="link to home page"
+          class="link-img" /></a
+      ><a href="./obliczenia.html" class="header-link"
+        ><img src="./src/znak.png" alt="link to count page" class="link-img"
+      /></a>
+    </header>
+    <main class="main-section">
+      <h3 class="main-section-title">Oblicz koszt paliwa</h3>
+      <form class="count-form">
+        <p class="input-label">Rodzaj paliwa (1-benzyna, 2-olej napędowy)</p>
+        <input type="number" name="oilType" class="count-input" />
+        <p class="input-label">Ile litrów</p>
+        <input type="number" name="litrCount" class="count-input" />
+        <br />
+        <button type="submit">OBLICZ</button>
+        <p class="count-output"></p>
+      </form>
+    </main>
+    <main class="left-section">
+      <a href="./kwerendy.txt" download class="left-section-download-link"
+        >Pobierz kwerendy</a
+      >
+    </main>
+    <main class="right-section">
+      <img src="./src/samochod.png" alt="samochód" class="right-section-img" />
+    </main>
+    <footer class="footer">
+      <p class="footer-text">Stronę opracował: Pan Kot</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
